@@ -54,15 +54,15 @@ body {
     align-items: center;
 }
 input[type="search"] {
-    width: 474px;  /* Set the width of the search input */
+    width: 474px; 
     height: 48px;
-    padding: 10px 20px; /* Add padding to the input */
-    font-size: 16px; /* Adjust font size */
-    border: 2px solid #000000;  /* Set border style */
-    border-radius: 50px; /* Makes the input field fully rounded */
-    box-sizing: border-box; /* Ensures the padding is included in the width */
-    background-color: #1f1f1f; /* Set a background color (if needed) */
-    color: white; /* Text color */
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: 2px solid #000000;  
+    border-radius: 50px; 
+    box-sizing: border-box; 
+    background-color: #1f1f1f; 
+    color: white;
     
 }
 
