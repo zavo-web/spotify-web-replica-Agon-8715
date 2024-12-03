@@ -55,6 +55,11 @@ body {
     height: 50%;
     display: block;
 }
+
+.icon-h:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
 .search {
     display: flex;
     width: 472px;
@@ -66,24 +71,26 @@ body {
     cursor: pointer; 
     box-sizing: border-box;
     position: relative;
-    justify-content: center;
+}
+.search:hover {
+    background-color: #2f2f2f;
+    border: 1px #fff solid;
+    cursor: pointer; 
 }
 input[type="search"] {
     display: flex;
     position: absolute;
     width: 100%;  
     height: 48px;
-    padding: 10px 20px;  
+    padding: 10px 64px 10px 48px;  
     font-size: 16px;
     border: none;
     border-radius: 50px; 
     background-color: transparent; 
     color: white;  
-    left:0.2cm;
-    right: -0,2cm;
 }
 input::placeholder{
-    padding-left: 21px;
+    
     color: #a7b0b8;
     font-weight:100;
 }
@@ -106,6 +113,10 @@ input::placeholder{
     left: 420px; 
     display: flex;
     align-items: center;
+}
+.l-icon svg:hover {
+    transform: scale(1.02);
+    fill: white;
 }
 .l-icon svg{
     fill: #b0b0b0;
@@ -146,6 +157,9 @@ input::placeholder{
     border-radius: 50px;
     font-weight: bold;
     font-size: 16px;
+}
+.aan:hover {
+    opacity:100%
 }
 .invert{
     filter: invert(100%);

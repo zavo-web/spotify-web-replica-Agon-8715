@@ -1,15 +1,18 @@
 .right-sec {
     display: flex;
     position: relative;
-    width: 67%;
+    width: 65%;
     height: 454px;
     border-radius:8px;
-    background-image: linear-gradient(#222222, #121212);
-    margin-right: 8px;
+    border: none;
+    background: linear-gradient(to bottom, #222,#0a0a0a) ;
+    padding-right: 8px;
+    background-repeat: no-repeat;
 }
+
 .window-scroll {
     width: 100%;
-    height: 454px;
+    height: 99%;
     margin-top:4px;
     margin-right: 0px; 
     margin-bottom: 0px; 
@@ -28,14 +31,13 @@
     flex-direction: column;
     width: 100%;
     height: max-content;
-    padding-left: 22px ;
-    padding-right: 26px;
+    padding-left: 16px ;
+    padding-right: 24px;
 }
 .div-of-box {
     display: flex;
     width: 100%;
     height: max-content;
-    gap: 20px;
 }
 .box {
     display: flex;
@@ -43,6 +45,7 @@
     width: 100%;
     height: max-content;
     flex-direction: column;
+    padding: 10px;
 }
 .tekst-top {
     display: flex;
@@ -54,6 +57,7 @@
     margin-top: 8px;
     justify-content: space-between;
 }
+
 .alles-weergeven {
     width: max-content;
     height: max-content;
@@ -100,7 +104,6 @@
     width:100%;
     align-self: center;
     margin-bottom: 8px;
-    overflow: hidden;
 }
 .img-artiest {
     width: 100%;
@@ -108,6 +111,8 @@
     border-radius: 100px;
     border: none;
     object-fit: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin: 1px;
 }
 .img-a {
     width: 100%;
@@ -127,4 +132,123 @@
     color: #aaaaaa;
     font-size: 14px;
 
+}
+.whato {
+    width: 100%;
+    font-weight: 400;
+    color: #aaaaaa;
+    font-size: 14px;
+}
+.whato:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-right {
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 62%;
+    padding: 0 28px;
+    top: 32px;
+    justify-content: space-between;
+    gap: 48px;
+    border-bottom: #292929 solid ;
+    border-width: 1px;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    height:100%;
+    font-weight: 700;
+    gap:8px
+}
+.footer-column a {
+    
+    color:#aaa;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footer-social {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    height: 48px;
+    gap:16px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+}
+.social {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    fill: white;
+    background-color: #292929;
+}
+.spot {
+    width:max-content;
+    height: 20%;
+    margin: 32px 32px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+.alles-weergeven {
+    color: #b5b5b5;
+}
+.alles-weergeven:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.naam:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+button:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+a:hover {
+    text-decoration: underline;
+    cursor:pointer
+}
+.box:hover {
+    background: linear-gradient(to top, #292929, transparent);
+    border-radius: 10px;
+}
+.play-button svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    fill: #000;
+    z-index: 1;
+    background-color: #1DB954;
+    padding: 12px;
+    border-radius:50px;
+    bottom: 60px;
+    right: 15px;
+    opacity: 0;
+}
+.play-button:hover svg{
+    transform: scale(1.05);
+}
+.box:hover svg {
+    opacity: 1;
+}
+.play-button-t svg {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    fill: #000;
+    z-index: 1;
+    background-color: #1DB954;
+    padding: 12px;
+    border-radius:50px;
+    bottom: 90px;
+    right: 15px;
+    opacity: 0;
+}
+.play-button-t:hover svg{
+    transform: scale(1.05);
 }

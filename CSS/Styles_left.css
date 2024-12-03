@@ -45,6 +45,10 @@
     font-size: 15px;
     font-weight: 700;
 }
+.but-bib:hover {
+    color: white;
+    cursor: pointer;
+}
 .but-bib h1{
     position: relative;
     left: 12px;
@@ -57,6 +61,12 @@
     height: auto;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
+    border-radius: 50px;
+}
+.plus:hover{
+    background-color: #1f1f1f;
+    cursor:pointer;
 }
 .l-mid{
     position: relative;
@@ -161,6 +171,7 @@
     padding: 0 24px;
     display: flex;
 }
+
 .text {
     width: inherit;
     height: 56px;
@@ -212,6 +223,9 @@
     border-radius: 50px;
     gap:4px;
     justify-content: center;
+}
+.t-but:hover {
+    border: 0.6px solid #ffffff;
 }
 .tt {
     display: flex;
