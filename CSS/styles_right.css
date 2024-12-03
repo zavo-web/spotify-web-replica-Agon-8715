@@ -20,14 +20,15 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100%;
+    height: 62%;
 }
 .box-column {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 48px;
-    padding: 0 24px ;
+    padding-left: 22px ;
+    padding-right: 26px;
     gap: 24px;
 }
 .div-of-box {
@@ -48,17 +49,15 @@
     font-size: 24px;
     font-weight: 700;
     color: white;
-    justify-content: flex-start;
     margin-top: 8px;
+    justify-content: space-between;
 }
 .alles-weergeven {
     width: max-content;
     height: max-content;
-    font-size: 12px;
+    font-size: 14px;
     color: gray;
-    font-weight: 400;
-    justify-content: flex-end;
-    
+    font-weight: 700;
 }
 .prem {
     display: flex;
